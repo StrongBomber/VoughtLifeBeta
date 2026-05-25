@@ -1,0 +1,12 @@
+{
+  "name": "vought-life-ger-ek-zamanl-ya-am-sim-lat-r",
+  "workspaces": ["frontend", "backend"], 
+  "scripts": {
+    "dev-frontend": "npm run dev --prefix frontend",
+    "dev-backend": "npm run dev --prefix backend",
+    "dev": "concurrently \"npm run dev-frontend\" \"npm run dev-backend\""
+  },
+  "devDependencies": {
+    "concurrently": "latest"
+  }
+}
